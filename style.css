@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'ibm_vga';
+    src: url('assets/flexi_ibm_vga_false-webfont.woff2') format('woff2'),
+        url('assets/flexi_ibm_vga_false-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,html{
+    background:#1b0b19;
+    margin: 0;
+    color:#ffffffe0;
+    font-family: ibm_vga;
+    font-size: 1vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: radial-gradient(ellipse at top , #30292e33 0%,  #68425b66 100%);
+}
+
+canvas {
+    position: fixed; 
+    height: 100%;
+}
+
+#main {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#banners {
+    max-width: 62.8vw;
+    margin: 0 auto;
+    width: 100%;
+    border:2px solid #7c5174;
+    filter: drop-shadow(0 0 1px #ff6be133) drop-shadow(0 0 3px #ff6be166);
+    padding:1ch
+}
+
+#kitty {
+    max-width: 2.5vw;
+    margin: 0 auto;
+    width: 100%;
+}
+
+*{
+    box-sizing:border-box
+}
+
+p{
+    filter: drop-shadow(0 0 1px #ff6be133) drop-shadow(0 0 3px #ff6be166);
+    text-shadow: #ea98ff 1.5px 0 10px;
+    margin: 4vw;
+    text-align: center;
+}
+
+a {
+    font-size: 18px;
+    color: #f0c9fce0;
+    text-align: center;
+}
